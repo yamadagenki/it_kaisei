@@ -1,0 +1,24 @@
+title: IT 開成会
+email: to.be.mr.all.rounder@gmail.com
+description: >
+  IT開成会のホームページです。半年に1度、会合を開いているのでよろしくお願い致します。
+baseurl: ""
+url: ""
+
+url: "https://yamadagenki.github.io/it_kaisei"
+base_path: "/it_kaisei"
+permalink: /:year/:month/:day.html
+sass:
+  style: compressed
+  
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
